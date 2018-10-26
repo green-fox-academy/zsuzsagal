@@ -1,0 +1,71 @@
+
+body {
+font-family: consolas, courier;
+background-image: url("topography.png"); 
+padding: 0 10px;
+margin-top: 0;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h3 {
+	color:#ff0099;
+}
+
+h2{
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-left:600px;
+    display: inline-block;
+}
+
+
+li {
+    display: inline-block;
+}
+
+
+li a {   
+    padding-left: 15px;
+    color: #ff0099;
+    font-size: 12px;   
+}
+
+
+.dash {
+	text-align: center;
+	padding:40px;
+}
+
+.navbar {
+	background-color: #333333;
+	background-image: url("appleLogo.jpg");
+    background-repeat: no-repeat;
+	height:50px;
+	background-size: 50px;
+	background-position: 5% 50%; 
+
+}
+
+p {
+	text-align: justify;
+}
+
+
+.maincontent {
+	margin: 50px;
+}
+
+
+.subtitle {
+color:black;
+font-size:25px;
+}
+
+
+
+
