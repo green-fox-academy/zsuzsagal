@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3547d11-2773-41a2-9e99-1a446f2fb991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/AppendA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/AppendAFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/ChangeElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/CompareLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/DiagonalMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/DoubleItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Doubling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Factorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Greet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/IncrementElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/PrintAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/PrintParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/SumAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/SumElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/SwapElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Third.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-02/src/Unique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,44 +39,53 @@
     <session id="-926352656">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37" />
+          <entry key="java" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37" />
+          <entry key="JAVA" value="142" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CodingHours.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="87" lean-forward="true" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+            <state relative-caret-position="135">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -61,6 +94,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/CodingHours.java" />
+        <option value="$PROJECT_DIR$/src/DrawPyramid.java" />
       </list>
     </option>
   </component>
@@ -71,12 +105,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="43" />
+    <option name="x" value="36" />
+    <option name="y" value="23" />
     <option name="width" value="1095" />
     <option name="height" value="662" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -88,11 +124,6 @@
             <path>
               <item name="day-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-01" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-01" type="b2602c69:ProjectViewProjectNode" />
@@ -110,7 +141,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540849916644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540972435960" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -126,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodingHours">
+  <component name="RunManager" selected="Application.DrawPyramid">
     <configuration name="AnimalsAndLegs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalsAndLegs" />
       <module name="day-01" />
@@ -141,12 +173,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DrawPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrawPyramid" />
+      <module name="day-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AnimalsAndLegs" />
       <item itemvalue="Application.CodingHours" />
+      <item itemvalue="Application.DrawPyramid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrawPyramid" />
         <item itemvalue="Application.CodingHours" />
         <item itemvalue="Application.AnimalsAndLegs" />
       </list>
@@ -162,45 +203,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540848816738</updated>
-      <workItem from="1540848818673" duration="918000" />
+      <workItem from="1540848818673" duration="2231000" />
+      <workItem from="1540926879963" duration="2867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="918000" />
+    <option name="totallyTimeSpent" value="5098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="43" width="1095" height="662" extended-state="0" />
+    <frame x="36" y="23" width="1095" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24976258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2545109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32906765" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32906765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32906765" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,13 +252,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../day-01_old/src/AnimalsAndLegs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../day-01_old/src/AnimalsAndLegs.java" />
     <entry file="file://$PROJECT_DIR$/src/AnimalsAndLegs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -224,10 +260,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParametricAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MileToKmConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawPyramid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodingHours.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="87" lean-forward="true" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
