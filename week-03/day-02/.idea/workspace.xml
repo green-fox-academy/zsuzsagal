@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="975fb646-656a-45b1-bf9b-59c0ada7038b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeWillNever.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,33 +21,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="31" />
+          <entry key="java" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3881" />
+          <entry key="java" value="3988" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3881" />
+          <entry key="JAVA" value="3988" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HeWillNever.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#258#275#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/IsInList.java" />
         <option value="$PROJECT_DIR$/src/TakesLonger.java" />
         <option value="$PROJECT_DIR$/src/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/HeWillNever.java" />
       </list>
     </option>
   </component>
@@ -145,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.HeWillNever">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="day-02" />
@@ -153,15 +165,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IsInList" />
+    <configuration name="HeWillNever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeWillNever" />
       <module name="day-02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakesLonger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TakesLonger" />
+    <configuration name="IsInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsInList" />
       <module name="day-02" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TakesLonger" />
       <item itemvalue="Application.TodoPrint" />
       <item itemvalue="Application.UrlFixer" />
       <item itemvalue="Application.IsInList" />
       <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.HeWillNever" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeWillNever" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.IsInList" />
         <item itemvalue="Application.UrlFixer" />
         <item itemvalue="Application.TodoPrint" />
-        <item itemvalue="Application.TakesLonger" />
       </list>
     </recent_temporary>
   </component>
@@ -208,12 +220,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541505462890</updated>
-      <workItem from="1541505464666" duration="23195000" />
+      <workItem from="1541505464666" duration="24866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23195000" />
+    <option name="totallyTimeSpent" value="24866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="41" width="1193" height="706" extended-state="0" />
@@ -352,6 +364,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeWillNever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#258#275#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
