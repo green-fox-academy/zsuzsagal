@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3ab21e0-c987-4f50-b5d8-3989e8e7da56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/src/DrawChessTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/src/DrawDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/src/DrawPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/src/DrawSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-03/src/PalindromeSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b3ab21e0-c987-4f50-b5d8-3989e8e7da56" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +13,7 @@
     <session id="-1122866160">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="2" />
@@ -65,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PalindromeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -74,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Unique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -276,18 +264,18 @@
       <workItem from="1541275729382" duration="17000" />
       <workItem from="1541275842163" duration="42000" />
       <workItem from="1541276193167" duration="22000" />
-      <workItem from="1541316882006" duration="156000" />
+      <workItem from="1541316882006" duration="476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46309000" />
+    <option name="totallyTimeSpent" value="46629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="41" width="1085" height="656" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +284,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23844732" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23844732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47134936" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bubble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -495,6 +476,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
