@@ -21,12 +21,11 @@ public class DrawSquare {
         int number = sc.nextInt();
 
 
-        for (int row = 1; row<= number; row++) {
-            for(int column = 1; column <=number; column++){
-                if (row ==1 || row == number || column==1 || column==number){
+        for (int row = 1; row <= number; row++) {
+            for (int column = 1; column <= number; column++) {
+                if (row == 1 || row == number || column == 1 || column == number) {
                     System.out.print("%");
-                }
-                else {
+                } else {
                     System.out.print(" ");
                 }
             }
