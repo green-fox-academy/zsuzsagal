@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6865bd4e-954c-4811-8698-35be658132dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-03/src/PalindromeSearcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week-03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week-03/day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week-03/day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week-03/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week-03/day-03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week-03/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week-03/day-04/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6865bd4e-954c-4811-8698-35be658132dd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +12,7 @@
     <session id="-854166277">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -90,35 +82,7 @@
             <path>
               <item name="week-02" type="b2602c69:ProjectViewProjectNode" />
               <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week-02" type="462c0819:PsiDirectoryNode" />
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,12 +121,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541505326563</updated>
       <workItem from="1541505328023" duration="50000" />
-      <workItem from="1541765434737" duration="610000" />
+      <workItem from="1541765434737" duration="685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660000" />
+    <option name="totallyTimeSpent" value="735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="41" width="1085" height="656" extended-state="0" />
