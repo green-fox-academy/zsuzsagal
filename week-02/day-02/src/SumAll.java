@@ -8,7 +8,7 @@ public class SumAll {
         int sum = 0;
 
         for (int i = 0; i < ai.length; i++) {
-            sum+= ai[i];
+            sum += ai[i];
         }
 
         System.out.println(sum);

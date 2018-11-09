@@ -10,12 +10,10 @@ public class PrintParams {
         // printParams("first", "second", "third", "fourth")
         // ...
 
-
         printParams("first");
-        printParams("first","second");
-        printParams("first","second","third");
-        printParams("first","second","third","fourth");
-
+        printParams("first", "second");
+        printParams("first", "second", "third");
+        printParams("first", "second", "third", "fourth");
     }
 
     public static void printParams(String... words) {
@@ -23,8 +21,6 @@ public class PrintParams {
             System.out.print(words[i] + " ");
         }
         System.out.println("\n");
-
     }
-
 }
 

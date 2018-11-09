@@ -3,31 +3,26 @@ public class VariableMutation {
         int a = 3;
         // make the "a" variable's value bigger by 10
         a += 10;
-
         System.out.println(a);
 
         int b = 100;
         // make b smaller by 7
         b -= 7;
-
         System.out.println(b);
 
         int c = 44;
         // please double c's value
         c *= 2;
-
         System.out.println(c);
 
         int d = 125;
         // please divide by 5 d's value
         d = d / 5;
-
         System.out.println(d);
 
         int e = 8;
         // please cube of e's value
         e = e * e * e;
-
         System.out.println(e);
 
         int f1 = 123;
@@ -38,7 +33,6 @@ public class VariableMutation {
         } else {
             System.out.println(false);
         }
-
 
         int g1 = 350;
         int g2 = 200;

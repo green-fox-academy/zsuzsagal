@@ -17,7 +17,6 @@ public class DiagonalMatrix {
                 System.out.print(twoDimensional[i][j] + " ");
             }
             System.out.println();
-
         }
     }
 }

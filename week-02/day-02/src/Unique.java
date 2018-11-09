@@ -11,7 +11,6 @@ public class Unique {
 
         int[] numbers = {1, 11, 34, 11, 52, 61, 1, 34};
         unique(numbers);
-
     }
 
 
@@ -28,19 +27,17 @@ public class Unique {
                 }
             }
 
-            if(!isInUnique){
+            if (!isInUnique) {
                 unique[indexInUnique] = numbers[i];
                 indexInUnique++;
             }
-
         }
 
-        for(int i=0; i<indexInUnique; i++){
+        for (int i = 0; i < indexInUnique; i++) {
             System.out.println(unique[i]);
         }
         return unique;
     }
-
 }
 
 

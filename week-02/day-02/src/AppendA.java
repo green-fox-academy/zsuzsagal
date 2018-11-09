@@ -7,8 +7,8 @@ public class AppendA {
         String[] animals = {"koal", "pand", "zebr"};
         String character = "a";
 
-        for(int i=0; i<animals.length; i++){
-            animals[i] = animals[i]+character;
+        for (int i = 0; i < animals.length; i++) {
+            animals[i] = animals[i] + character;
             System.out.println(animals[i]);
         }
     }

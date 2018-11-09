@@ -7,12 +7,11 @@ public class SwapElements {
         String[] abc = {"first", "second", "third"};
         String temp;
         temp = abc[0];
-        abc[0] = abc[abc.length-1];
-        abc[abc.length-1] = temp;
+        abc[0] = abc[abc.length - 1];
+        abc[abc.length - 1] = temp;
 
         for (int i = 0; i < abc.length; i++) {
             System.out.print(abc[i] + " ");
-
         }
     }
 }

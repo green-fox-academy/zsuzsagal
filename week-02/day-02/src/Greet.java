@@ -7,11 +7,9 @@ public class Greet {
 
         String al = "Greenfox";
         greet(al);
-
     }
 
     public static void greet(String name) {
         System.out.println("Greetings dear, " + name);
     }
-
 }

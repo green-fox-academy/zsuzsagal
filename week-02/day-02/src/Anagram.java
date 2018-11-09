@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 
 public class Anagram {
@@ -8,13 +7,12 @@ public class Anagram {
         //or not.
 
         String wordA = "dog";
-        String wordB = "iod";
+        String wordB = "god";
 
         System.out.println(anagram(wordA, wordB));
-
     }
 
-    public static boolean anagram(String wordA, String wordB){
+    public static boolean anagram(String wordA, String wordB) {
         boolean isAnagram = false;
 
         char[] charArray1 = wordA.toCharArray();
@@ -23,10 +21,9 @@ public class Anagram {
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
 
-        if(Arrays.equals(charArray1, charArray2)) {
+        if (Arrays.equals(charArray1, charArray2)) {
             isAnagram = true;
         }
-
         return isAnagram;
     }
 }

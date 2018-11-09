@@ -8,13 +8,12 @@ public class AppendAFunc {
 
         String typo = "Chinchill";
         System.out.println(appendAFunc(typo));
-
     }
 
 
     public static String appendAFunc(String word) {
         String character = "a";
-        word+= character;
+        word += character;
         return word;
     }
 }
