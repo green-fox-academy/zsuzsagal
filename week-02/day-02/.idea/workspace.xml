@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3ab21e0-c987-4f50-b5d8-3989e8e7da56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-03/day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-03/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-03/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-03/day-04/src/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-04/src/JosephusProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-03/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/CodingHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/ConditionalVariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/CountFromTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/CountFromTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/Cuboid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/DrawTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/DrawTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/GuessTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/HelloOthers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/HelloOthers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/HumptyDumpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/HumptyDumpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/IntroduceYourself.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/IntroduceYourself.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/MileToKmConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/MileToKmConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-01/src/OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/OddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +34,11 @@
     <session id="-1122866160">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PalindromeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -138,7 +153,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,16 +269,17 @@
       <workItem from="1541276193167" duration="22000" />
       <workItem from="1541316882006" duration="476000" />
       <workItem from="1541765104375" duration="177000" />
+      <workItem from="1541768606663" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46806000" />
+    <option name="totallyTimeSpent" value="46903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="41" width="1085" height="656" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29146692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29721954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PalindromeBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>

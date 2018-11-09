@@ -16,13 +16,11 @@ public class DrawTriangle {
         System.out.println("Please enter a number: ");
         int number = sc.nextInt();
 
-
-        for(int row=1; row<=number; row++) {
-            System.out.println();
-            for (int star=1; star<=row; star++) {
+        for (int row = 1; row <= number; row++) {
+            for (int star = 1; star <= row; star++) {
                 System.out.print("*");
             }
+            System.out.println();
         }
-
     }
 }

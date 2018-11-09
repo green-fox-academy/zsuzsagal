@@ -12,13 +12,12 @@ public class CodingHours {
         int dailyWorkingHours = 6;
         int semester = 17;
         int workingDaysinAWeek = 5;
-        int workdaysInSemester = semester*workingDaysinAWeek;
-        int codingHoursInSemester = workdaysInSemester*dailyWorkingHours;
+        int workdaysInSemester = semester * workingDaysinAWeek;
+        int codingHoursInSemester = workdaysInSemester * dailyWorkingHours;
         int workHoursWeekly = 52;
-        double percentageOfCodingHours = ((double)(workingDaysinAWeek*dailyWorkingHours)/workHoursWeekly)*100;
+        double percentageOfCodingHours = ((double) (workingDaysinAWeek * dailyWorkingHours) / workHoursWeekly) * 100;
 
         System.out.println(codingHoursInSemester);
         System.out.println(percentageOfCodingHours);
-
     }
 }

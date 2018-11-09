@@ -22,8 +22,8 @@ public class MultiplicationTable {
         System.out.println("Please enter a number: ");
         int number = sc.nextInt();
 
-        for(int i=1; i<11; i++){
-            System.out.println(i + " * " + number + " = " + i*number);
+        for (int i = 1; i < 11; i++) {
+            System.out.println(i + " * " + number + " = " + i * number);
         }
     }
 }

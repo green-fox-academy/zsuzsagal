@@ -16,20 +16,18 @@ public class CountFromTo {
         // 4
         // 5
 
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a number: ");
         int numberA = sc.nextInt();
         System.out.println("Please enter another number: ");
         int numberB = sc.nextInt();
 
-        if(numberB < numberA){
+        if (numberB < numberA) {
             System.out.println("The second number should be bigger");
-        } else{
-            for(int i=numberA; i<numberB; i++){
+        } else {
+            for (int i = numberA; i < numberB; i++) {
                 System.out.println(i);
             }
         }
-
     }
 }

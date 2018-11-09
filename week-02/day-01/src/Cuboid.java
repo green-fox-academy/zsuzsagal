@@ -6,7 +6,6 @@ public class Cuboid {
         // Surface Area: 600
         // Volume: 1000
 
-
         int a = 3;
         int b = 5;
         int c = 10;

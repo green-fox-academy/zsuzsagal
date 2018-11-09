@@ -10,8 +10,6 @@ public class HelloOthers {
             System.out.println("Hello, Lili");
             System.out.println("Hello, Andras");
             System.out.println("Hello, Zoltan");
-
-
         }
     }
 

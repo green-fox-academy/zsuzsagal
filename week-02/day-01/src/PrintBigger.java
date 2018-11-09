@@ -11,13 +11,12 @@ public class PrintBigger {
         System.out.println("Please enter another number: ");
         int numberB = sc.nextInt();
 
-        if(numberA > numberB) {
+        if (numberA > numberB) {
             System.out.println(numberA);
-        } else if (numberA < numberB){
+        } else if (numberA < numberB) {
             System.out.println(numberB);
         } else {
             System.out.println("the numbers are equal");
         }
-
     }
 }

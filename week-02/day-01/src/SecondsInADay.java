@@ -9,12 +9,11 @@ public class SecondsInADay {
         int currentSeconds = 42;
 
         int hoursInDay = 24;
-        int minutesInDay = hoursInDay*60;
+        int minutesInDay = hoursInDay * 60;
         int secondsInDay = minutesInDay * 60;
 
-        int timeInSeconds = (currentHours*60)*60 + currentMinutes*60 + currentSeconds;
-        int remainingSeconds = secondsInDay-timeInSeconds;
-        System.out.println("The remaining seconds are: " +remainingSeconds);
-
+        int timeInSeconds = (currentHours * 60) * 60 + currentMinutes * 60 + currentSeconds;
+        int remainingSeconds = secondsInDay - timeInSeconds;
+        System.out.println("The remaining seconds are: " + remainingSeconds);
     }
 }

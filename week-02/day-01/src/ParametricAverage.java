@@ -16,16 +16,15 @@ public class ParametricAverage {
         int sum = 0;
         double average = 0;
 
-        for(int i=1; i<=count; i++){
+        for (int i = 1; i <= count; i++) {
             System.out.println("Please enter a number: ");
             int number = sc.nextInt();
-            sum+=number;
+            sum += number;
         }
 
-        average = sum/count;
+        average = sum / count;
 
         System.out.println(sum);
         System.out.println(average);
-
     }
 }

@@ -11,8 +11,5 @@ public class MileToKmConverter {
         double miles = km * 0.62137;
 
         System.out.println(miles);
-
-
     }
-
 }

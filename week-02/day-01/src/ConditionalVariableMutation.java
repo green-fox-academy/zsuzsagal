@@ -7,10 +7,7 @@ public class ConditionalVariableMutation {
         if(a%2==0) {
             out+=1;
         }
-
         System.out.println(out);
-
-
 
 
         int b = 13;
@@ -18,7 +15,6 @@ public class ConditionalVariableMutation {
         // if b is between 10 and 20 set out2 to "Sweet!"
         // if less than 10 set out2 to "Less!",
         // if more than 20 set out2 to "More!"
-
         if(b<10){
             out2="Less!";
         } else if(b>=10 && b<=20){
@@ -26,9 +22,7 @@ public class ConditionalVariableMutation {
         } else {
             out2="More!";
         }
-
         System.out.println(out2);
-
 
 
         int c = 123;
@@ -45,10 +39,7 @@ public class ConditionalVariableMutation {
         } else if(credits<50 && isBonus==false){
             c-=1;
         }
-
         System.out.println(c);
-
-
 
 
         int d = 7;
@@ -68,9 +59,7 @@ public class ConditionalVariableMutation {
         } else {
             out3="Run Forest Run!";
         }
-
         System.out.println(out3);
     }
-
 }
 

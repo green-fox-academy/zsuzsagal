@@ -13,21 +13,19 @@ public class GuessTheNumber {
 
         int number = 8;
         Scanner sc = new Scanner(System.in);
-        int guess=0;
+        int guess = 0;
 
         do {
             System.out.println("Please enter your guess: ");
             guess = sc.nextInt();
 
-            if(guess>8){
+            if (guess > 8) {
                 System.out.println("The stored number is lower");
-            } else if(guess<8){
+            } else if (guess < 8) {
                 System.out.println("The stored number is higher");
             } else {
                 System.out.println("You found the number: " + number);
             }
-
-        } while(guess!=number);
-
+        } while (guess != number);
     }
 }

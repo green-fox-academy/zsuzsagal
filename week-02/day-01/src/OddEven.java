@@ -11,9 +11,9 @@ public class OddEven {
         System.out.println("Please enter a number: ");
         int number = sc.nextInt();
 
-        if(number%2==0){
+        if (number % 2 == 0) {
             System.out.println("even");
-        } else{
+        } else {
             System.out.println("odd");
         }
     }
