@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbca7008-9434-40dc-935d-e3bbc35b3be9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawChessTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawChessTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawDiagonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawPyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeSearcher.java" afterDir="false" />
-    </list>
+    <list default="true" id="dbca7008-9434-40dc-935d-e3bbc35b3be9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +13,7 @@
     <session id="-1319379664">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -232,12 +225,12 @@
       <workItem from="1541276217192" duration="5828000" />
       <workItem from="1541307915604" duration="4852000" />
       <workItem from="1541766316581" duration="457000" />
-      <workItem from="1541771217357" duration="1523000" />
+      <workItem from="1541771217357" duration="1751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12999000" />
+    <option name="totallyTimeSpent" value="13227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="43" width="1095" height="662" extended-state="0" />

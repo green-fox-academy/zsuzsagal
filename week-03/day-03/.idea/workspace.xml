@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="237df2f3-a28d-4ac6-b40e-1b67fc667567" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionToCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +17,24 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="57" />
+          <entry key="java" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -50,11 +51,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PositionSquare.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
               <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/ColoredBox.java" />
         <option value="$PROJECT_DIR$/src/ConnectTheDots.java" />
         <option value="$PROJECT_DIR$/src/CenterBoxFunction.java" />
-        <option value="$PROJECT_DIR$/src/FunctionToCenter.java" />
         <option value="$PROJECT_DIR$/src/Diagonals.java" />
         <option value="$PROJECT_DIR$/src/FourRectangles.java" />
         <option value="$PROJECT_DIR$/src/GoToCenter.java" />
@@ -92,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/Checkerboard.java" />
         <option value="$PROJECT_DIR$/src/PurpleSteps3d.java" />
         <option value="$PROJECT_DIR$/src/PurpleSteps.java" />
+        <option value="$PROJECT_DIR$/src/FunctionToCenter.java" />
       </list>
     </option>
   </component>
@@ -154,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GoToCenter">
+  <component name="RunManager" selected="Application.FunctionToCenter">
     <configuration name="Checkerboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Checkerboard" />
       <module name="day-03" />
@@ -199,10 +212,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionToCenter" />
         <item itemvalue="Application.GoToCenter" />
         <item itemvalue="Application.FourRectangles" />
         <item itemvalue="Application.Checkerboard" />
-        <item itemvalue="Application.FunctionToCenter" />
         <item itemvalue="Application.PositionSquare" />
       </list>
     </recent_temporary>
@@ -229,23 +242,25 @@
       <workItem from="1541706258598" duration="594000" />
       <workItem from="1541711195669" duration="1730000" />
       <workItem from="1541755669353" duration="39000" />
+      <workItem from="1541965058895" duration="339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36031000" />
+    <option name="totallyTimeSpent" value="36370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="23" width="1193" height="706" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29887053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3040834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,11 +387,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java" />
     <entry file="file://$PROJECT_DIR$/src/PositionSquare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
