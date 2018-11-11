@@ -18,21 +18,16 @@ public class DrawDiagonal {
         System.out.println("Please enter a number: ");
         int number = sc.nextInt();
 
-
-        for (int row = 1; row<= number; row++) {
-            for(int column = 1; column <=number; column++){
-                if (row ==1 || row == number || column==1 || column==number || row==column){
+        for (int row = 1; row <= number; row++) {
+            for (int column = 1; column <= number; column++) {
+                if (row == 1 || row == number || column == 1 || column == number || row == column) {
                     System.out.print("%");
-                }
-                else {
+                } else {
                     System.out.print(" ");
                 }
             }
             System.out.println();
         }
-
     }
-
-
-    }
+}
 

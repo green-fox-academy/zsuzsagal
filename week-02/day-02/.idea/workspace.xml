@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3ab21e0-c987-4f50-b5d8-3989e8e7da56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/VariableMutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppendA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppendA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppendAFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppendAFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompareLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompareLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiagonalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiagonalMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doubling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doubling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IncrementElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncrementElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwapElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwapElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unique.java" afterDir="false" />
-    </list>
+    <list default="true" id="b3ab21e0-c987-4f50-b5d8-3989e8e7da56" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +13,7 @@
     <session id="-1122866160">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.2" value="2" />
@@ -71,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Unique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="404">
               <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
@@ -273,16 +249,15 @@
       <workItem from="1541316882006" duration="476000" />
       <workItem from="1541765104375" duration="177000" />
       <workItem from="1541768606663" duration="97000" />
-      <workItem from="1541769299347" duration="1633000" />
+      <workItem from="1541769299347" duration="1711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48536000" />
+    <option name="totallyTimeSpent" value="48614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="41" width="1085" height="656" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3029722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,7 +268,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23844732" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23844732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47134936" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,7 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Unique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="404">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>

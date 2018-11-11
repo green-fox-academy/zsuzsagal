@@ -16,13 +16,11 @@ public class DrawChessTable {
         System.out.println("Please enter a number: ");
         int number = sc.nextInt();
 
-
-        for (int row = 1; row<= number; row++) {
-            for(int column = 1; column <=number; column++){
-                if ((row%2==0 && column%2==0) || (row%2!=0 && column%2!=0)){
+        for (int row = 1; row <= number; row++) {
+            for (int column = 1; column <= number; column++) {
+                if ((row % 2 == 0 && column % 2 == 0) || (row % 2 != 0 && column % 2 != 0)) {
                     System.out.print("%");
-                }
-                else {
+                } else {
                     System.out.print(" ");
                 }
             }

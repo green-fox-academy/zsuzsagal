@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class DrawPyramid {
@@ -18,20 +17,19 @@ public class DrawPyramid {
         System.out.println("Please enter a number: ");
         int number = sc.nextInt();
 
-        int countSpaces = number-1;
+        int countSpaces = number - 1;
         int countAsterisks = 1;
 
-        for (int row = 1; row<= number; row++) {
-            for (int space = 1; space <=countSpaces; space++) {
+        for (int row = 1; row <= number; row++) {
+            for (int space = 1; space <= countSpaces; space++) {
                 System.out.print(" ");
             }
-            for(int asterisk = 1; asterisk <= countAsterisks; asterisk++){
+            for (int asterisk = 1; asterisk <= countAsterisks; asterisk++) {
                 System.out.print("*");
-
             }
 
             countSpaces--;
-            countAsterisks+=2;
+            countAsterisks += 2;
             System.out.println();
         }
     }

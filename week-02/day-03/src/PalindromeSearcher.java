@@ -22,8 +22,7 @@ public class PalindromeSearcher {
 
 
     public static ArrayList<String> palindrome(String word) {
-
-        ArrayList<String> palindromes = new ArrayList<String>();
+        ArrayList<String> palindromes = new ArrayList<>();
 
         for (int i = 0; i < word.length(); i++) {
             for (int j = i + 2; j < word.length(); j++) {
