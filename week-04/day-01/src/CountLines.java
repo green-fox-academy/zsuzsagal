@@ -14,11 +14,10 @@ public class CountLines {
     }
 
     public static int countLines(String fileName) {
-        Path filePath = Paths.get(fileName);
         try {
+            Path filePath = Paths.get(fileName);
             List<String> lines = Files.readAllLines(filePath);
             return lines.size();
-
         } catch (IOException e) {
             return 0;
         }

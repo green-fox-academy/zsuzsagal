@@ -15,8 +15,8 @@ public class PrintEachLine {
     }
 
     public static void printLines() {
-        Path filePath = Paths.get("my-file.txt");
         try {
+            Path filePath = Paths.get("my-file.txt");
             List<String> lines = Files.readAllLines(filePath);
             System.out.println(lines);
         } catch (IOException e) {

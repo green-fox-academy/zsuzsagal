@@ -22,9 +22,9 @@ public class WriteMultipleLines {
 
 
     public static void writeMultipleLines(String fileName, String word, int number) {
-        Path filePath = Paths.get(fileName);
         List<String> input = new ArrayList<>(Arrays.asList(word));
         try {
+            Path filePath = Paths.get(fileName);
             for (int i = 0; i < number; i++) {
                 Files.write(filePath, input);
                 List<String> lines = Files.readAllLines(filePath);

@@ -18,9 +18,10 @@ public class WriteSingleLine {
 
 
     public static void writeSingleLine() {
-        Path filePath = Paths.get("my-file.txt");
-        List<String> input = new ArrayList<>(Arrays.asList("Zsuzsa Gal"));
+        List<String> input = new ArrayList<>();  //new ArrayList<>(Arrays.asList("Zsuzsa Gal"));
+        input.add("Zsuzsa Gal");
         try {
+            Path filePath = Paths.get("my-file.txt");
             Files.write(filePath, input);
             List<String> lines = Files.readAllLines(filePath);
             System.out.println(lines);
