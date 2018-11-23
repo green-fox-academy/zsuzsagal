@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671219dd-7d61-4025-a61e-8c5c1c7baaa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-03/src/zoo/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-03/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-03/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-04/.idea/workspace.xml" afterDir="false" />
@@ -21,6 +20,8 @@
       <change beforePath="$PROJECT_DIR$/../../week-04/src/PrintEachLine.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/src/WriteMultipleLines.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/src/WriteSingleLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-03/src/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/src/zoo/Zoo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,52 +63,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/Aircraft.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="93" lean-forward="true" selection-end-line="93" />
-              <folding>
-                <element signature="e#2498#2499#0" expanded="true" />
-                <element signature="e#2525#2526#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/Carrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="50" lean-forward="true" selection-end-line="50" />
-              <folding>
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/F16.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/F35.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,12 +131,6 @@
               <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aircraft" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,16 +226,15 @@
       <option name="presentableId" value="Default" />
       <updated>1542703919543</updated>
       <workItem from="1542703920711" duration="29890000" />
-      <workItem from="1542970515856" duration="1283000" />
+      <workItem from="1542970515856" duration="1721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31173000" />
+    <option name="totallyTimeSpent" value="31611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1193" height="706" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16246742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -508,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aircraft/F35.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
