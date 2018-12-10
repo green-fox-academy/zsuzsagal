@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Shop</title>
+    <link rel="stylesheet" href="/myShopStyle.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1> My Shop</h1> </br>
+
+    <!--<button type="button" class="btn" onclick="location.href='/Cheapest-first'">Cheapest first</button>-->
+    <!--a submit fogja a postot elkuldeni -->
+    <button type="submit" class="filterbutton" onclick="location.href='/only-available'"> ONLY AVAILABLE</button>
+    <button type="submit" class="filterbutton" onclick="location.href='/cheapest-first'"> CHEAPEST FIRST</button>
+    <button type="submit" class="filterbutton" onclick="location.href='/contains-nike'"> CONTAINS NIKE</button>
+    <button type="submit" class="filterbutton" onclick="location.href='/average'"> AVERAGE STOCK</button>
+    <button type="submit"  class="filterbutton" onclick="location.href='/most-expensive'"> MOST EXPENSIVE AVAILABLE</button>
+    </br>
+
+
+    <form action="/search" method="POST">
+        <label> Search for:</label> </br>
+        <input name ="searchText" class="input" type="text" placeholder="...something like nike">
+
+        <button id="searchbtn" type="submit" class="search" > Search</button>
+
+    </form>
+
+
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity of Stock</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="shopItem : ${allProducts}">
+            <td th:text="${shopItem.name}"></td>
+            <td th:text="${shopItem.description}"> </td>
+            <td class="center" th:text="${shopItem.price}"> </td>
+            <td class="center" th:text="${shopItem.quantity}"></td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+
+
+</body>
+</html>

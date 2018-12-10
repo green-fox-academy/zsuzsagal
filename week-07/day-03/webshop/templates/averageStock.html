@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Average</title>
+    <link rel="stylesheet" href="/myShopStyle.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+    <h1> My Shop </h1> </br>
+
+    <button class="filterbutton" onclick="location.href='/only-available'"> ONLY AVAILABLE</button>
+    <button class="filterbutton" onclick="location.href='/cheapest-first'"> CHEAPEST FIRST</button>
+    <button class="filterbutton" onclick="location.href='/contains-nike'"> CONTAINS NIKE</button>
+    <button class="filterbutton" onclick="location.href='/average'"> AVERAGE STOCK</button>
+    <button class="filterbutton" onclick="location.href='/most-expensive'"> MOST EXPENSIVE AVAILABLE</button>
+    </br>
+
+</div>
+
+<div class="average">
+<span > Average Stock:</span> <span th:text="${average}"> </span>
+</div>
+
+
+</body>
+</html>
