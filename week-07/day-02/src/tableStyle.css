@@ -1,0 +1,27 @@
+
+.mytable {
+    border: 35px solid cornflowerblue;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+td {
+    color: grey;
+    font-size: 20px;
+}
+
+th, td {
+    border: 1px solid grey;
+    font-family: Arial;
+    width: 250px;
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(odd) {
+    background: lightgray;
+}

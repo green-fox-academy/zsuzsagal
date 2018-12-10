@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial;
+}
+
+h1 {
+    color: grey;
+}
+
+.center {
+    margin: 0 auto;
+    width: 40%;
+
+}
+
+.input {
+    width: 240px;
+    height: 30px;
+    font-size: 13px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid lightseagreen;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgray;
+    text-align: center;
+
+    line-height: 40px;
+    box-shadow: lightgray;
+    color: gray;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 13px;
+    border: 0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.socMed {
+    width: 250px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.fb {
+    background-color: blue;
+}
+
+.tw {
+    background-color: cornflowerblue;
+}
+
+.google {
+    background-color: red;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACCOUNT LOGIN</title>
+    <link rel="stylesheet" href="loginFormStyle.css">
+
+</head>
+<body>
+    <form action="/login" method="get">
+        <div class="center">
+
+            <h1> ACCOUNT LOGIN </h1>
+
+            <div>
+                <label> USERNAME</label> </br>
+                <input type="text" name="username" required autofocus/>
+            </div>
+
+            <div>
+                <label>PASSWORD</label> </br>
+                <input type="password" name="password" required pattern="(?=.*\d)(?=.*[a-z]">
+            </div>
+
+            <p> Forgot password?</p>
+
+            <input type="submit" value="Login" class="button">
+
+        </div>
+    </form>
+   </body>
+</html>
