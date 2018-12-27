@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Accounts</title>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Account Owner</th>
+            <th>Balance</th>
+            <th>Customer type</th>
+            <th>Is he a king? </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="account,status : ${accounts}" th:for="${status.index}" th:style="${account.king.equalsIgnoreCase('King') ? 'color:red' : 'color:black'}">
+            <td th:text="${status.index + 1}" ></td>
+            <td th:text="${account.name}"> </td>
+            <td th:text="${#numbers.formatDecimal(account.balance,0,2)}"></td>
+            <td th:text="${account.animalType}"></td>
+            <td th:text="${account.king}"></td>
+        </tr>
+        </tbody>
+    </table>
+</br>
+    <form action="/raise-all-accounts" method="POST" >
+        <input type="submit" value="Raise Balance">
+    </form>
+</br>
+    <form action="/addnew" method="GET" >
+        <input type="submit" value="Add new account">
+    </form>
+ </body>
+</html>

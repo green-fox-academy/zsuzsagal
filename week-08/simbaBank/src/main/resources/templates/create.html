@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+  <body>
+    <form action="#" th:action="@{/add}" th:object="${bankAccount}" th:method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" th:field="*{name}" ><br/>
+
+        <label for="balance">Balance</label>
+        <input type="number" name="balance" id="balance" th:field="*{balance}" ><br/>
+
+        <label for="animalType">Animal Type</label>
+        <input type="text" name="animalType" id="animalType" th:field="*{animalType}" ><br/>
+
+        <label for="king">King or not ? </label>
+        <input type="text" name="king" id="king" th:field="*{king}" ><br/>
+
+        <button type="submit">Save</button>
+    </form>
+  </body>
+</html>
