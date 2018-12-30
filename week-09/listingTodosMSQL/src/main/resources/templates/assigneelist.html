@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignees</title>
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="assignee : ${assignees}">
+            <td th:text="${assignee.id}" ></td>
+            <td th:text="${assignee.name}"> </td>
+            <td th:text="${assignee.email}"></td>
+            <td><a th:href="@{'/todo/assignee/'+${assignee.id} +'/edit'}" >Edit</a></td>
+            <td><a th:href="@{'/todo/assignee/'+${assignee.id} +'/delete'}" >Delete</a></td>
+        </tr>
+        </tbody>
+    </table>
+    </br>
+    <form action="/todo/assignee/add" method="GET" >
+        <input type="submit" value="Add Assignee">
+    </form>
+    </br>
+    <a th:href="@{/todo/}" >Back to Todos</a>
+    <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+</body>
+</html>

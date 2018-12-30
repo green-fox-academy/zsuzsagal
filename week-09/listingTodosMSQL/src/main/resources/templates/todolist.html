@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todos</title>
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="#" th:action="@{/todo/list}"  method="GET">
+    <input type="text" th:name="title">
+    <button type="submit">Search by title</button>
+    </form>
+    </br>
+    <a th:href="@{/todo/assignee}" >Assignees</a>
+    </br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>ACTION</th>
+                <th>URGENT</th>
+                <th>DONE</th>
+                <th>ASSIGNEE</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr th:each="todo : ${todos}">
+            <td th:text="${todo.id}" ></td>
+            <td th:text="${todo.title}"> </td>
+            <td th:text="${todo.urgent}"></td>
+            <td th:text="${todo.done}"></td>
+              <td th:text="${todo.assignee.name}"></td>
+            <td><a th:href="@{${todo.id} +'/edit'}" >Edit</a></td>
+              <td><a th:href="@{${todo.id} +'/delete'}" >Delete</a></td>
+          </tr>
+        </tbody>
+    </table>
+    </br>
+    <form action="/todo/add" method="GET" >
+        <input type="submit" value="Add Todo">
+    </form>
+    <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+</body>
+</html>
