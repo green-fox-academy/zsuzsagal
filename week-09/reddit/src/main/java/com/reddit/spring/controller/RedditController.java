@@ -23,10 +23,10 @@ public class RedditController {
     return "posts";
   }
 
-    @GetMapping("/posts")
-  public String showAllPosts(Model model, @RequestParam (name="username") String name) {
+  @GetMapping("/posts")
+  public String showAllPosts(Model model, @RequestParam(name = "username") String name) {
     model.addAttribute("posts", redditService.sortAllPostsByName(name));
-    model.addAttribute("username",name);
+    model.addAttribute("username", name);
     return "posts";
   }
 
@@ -37,36 +37,36 @@ public class RedditController {
   }
 
   @GetMapping("/{id}/upvote")
-  public String upVote(@PathVariable Long id,@RequestParam (name="username") String name){
+  public String upVote(@PathVariable Long id, @RequestParam(name = "username") String name) {
     redditService.upVote(id);
-    return "redirect:/posts?username="+name;
+    return "redirect:/posts?username=" + name;
   }
 
   @GetMapping("/{id}/downvote")
-  public String downVote(@PathVariable Long id, @RequestParam (name="username") String name) {
+  public String downVote(@PathVariable Long id, @RequestParam(name = "username") String name) {
     redditService.downVote(id);
-    return "redirect:/posts?username="+name;
+    return "redirect:/posts?username=" + name;
   }
 
   @GetMapping("/add")
-  public String addNewPost(Model model,@RequestParam (name="username") String userName) {
+  public String addNewPost(Model model, @RequestParam(name = "username") String userName) {
     model.addAttribute("post", new Post());
     model.addAttribute("userName", userName);
     return "add";
   }
 
   @PostMapping("/add/{userName}")
-  public String showUpdatedPostList(@ModelAttribute  Post post, @PathVariable String userName) {
-    User user =  redditService.findUserByName(userName);
+  public String showUpdatedPostList(@ModelAttribute Post post, @PathVariable String userName) {
+    User user = redditService.findUserByName(userName);
     post.setUser(user);
     redditService.addPost(post);
-    return "redirect:/posts?username="+userName;
+    return "redirect:/posts?username=" + userName;
   }
 
   @GetMapping("/{id}/delete")
-  public String deletePost(@PathVariable Long id, @RequestParam (name="username") String name) {
+  public String deletePost(@PathVariable Long id, @RequestParam(name = "username") String name) {
     redditService.deletePost(id);
-    return "redirect:/posts?username="+name;
+    return "redirect:/posts?username=" + name;
   }
 
   @GetMapping("/login")
@@ -75,14 +75,12 @@ public class RedditController {
   }
 
   @PostMapping("/login")
-  public String listPostsByUser(@RequestParam (name="name") String name){
+  public String listPostsByUser(@RequestParam(name = "name") String name) {
     User found = redditService.findUserByName(name);
     if (found == null) {
-       return "redirect:/login";
-    }
-    else {
-        return "redirect:/posts?username="+name;
+      return "redirect:/login";
+    } else {
+      return "redirect:/posts?username=" + name;
     }
   }
 }
-
