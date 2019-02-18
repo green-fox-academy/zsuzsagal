@@ -9,7 +9,6 @@ public class User {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long userId;
   private String name;
-  //private String password;
 
   @OneToMany(cascade = CascadeType.PERSIST, mappedBy = "user")
   private List<Post> posts;
@@ -19,7 +18,6 @@ public class User {
 
   public User(String name){
     this.name = name;
-    //this.posts = new ArrayList<>(); // do we need this here ?
   }
 
   public String getName() {
