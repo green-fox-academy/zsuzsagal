@@ -26,10 +26,10 @@ public class RedditService {
   public List<Post> getAllPosts() {
     return (List<Post>) postRepository.findAll();
   }
+
   public List<User> getAllUsers() {
     return (List<User>) userRepository.findAll();
   }
-
 
   public Post get(Long id) {
     Optional<Post> post = postRepository.findById(id);
@@ -59,28 +59,21 @@ public class RedditService {
     postRepository.save(post);
   }
 
-  public void deletePost(Long id){
+  public void deletePost(Long id) {
     postRepository.deleteById(id);
   }
 
   public List<Post> sortAllPostsByName(String username) {
     User user = findUserByName(username);
     return getAllPosts().stream()
-          .filter(e -> e.getUser().getId().equals(user.getId()))
+            .filter(e -> e.getUser().getId().equals(user.getId()))
             .sorted(Comparator.comparing(Post::getNumberOfVotes).reversed()).collect(Collectors.toList());
   }
 
-  public User findUserByName(String name){
+  public User findUserByName(String name) {
     return getAllUsers().stream()
             .filter(e -> e.getName().equals(name))
             .findFirst()
             .orElse(null);
   }
 }
-
-
-
-
-
-
-
