@@ -18,13 +18,15 @@ public class RedditController {
     this.redditService = redditService;
   }
 
-  @GetMapping("/")
-  public String showWebsite() {
-    return "posts";
-  }
-
   @GetMapping("/posts")
-  public String showAllPosts(Model model, @RequestParam(name = "username") String name) {
+  public String showAllPosts(Model model, @RequestParam(name = "username", required = false) String name) {
+    if (name == null) {
+      return "redirect:login";
+    }
+    User user = redditService.findUserByName(name);
+    if (user == null) {
+      return "redirect:login";
+    }
     model.addAttribute("posts", redditService.sortAllPostsByName(name));
     model.addAttribute("username", name);
     return "posts";
@@ -65,11 +67,15 @@ public class RedditController {
 
   @GetMapping("/{id}/delete")
   public String deletePost(@PathVariable Long id, @RequestParam(name = "username") String name) {
-    redditService.deletePost(id);
+    try {
+      redditService.deletePost(id);
+    } catch (Exception e) {
+      return "error";
+    }
     return "redirect:/posts?username=" + name;
   }
 
-  @GetMapping("/login")
+  @GetMapping({"/", "/login"})
   public String showLogin() {
     return "login";
   }

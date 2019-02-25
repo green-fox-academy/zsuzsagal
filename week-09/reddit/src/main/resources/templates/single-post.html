@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Single Post</title>
+</head>
+<body>
+<h2> Show details of post</h2>
+<table class="table table-hover">
+    <tbody>
+    <th> Number of votes:</th>
+    <td th:text="${post.numberOfVotes}"></td>
+    <th> Post title:</th>
+    <td th:text="${post.title}"></td>
+    <th> Posted on:</th>
+    <td th:text="${post.dateTime}"></td>
+    </tr>
+    </tbody>
+</table>
+</br>
+<a th:href="@{'/posts?username='+${post.user.getName()}}"> Go back to all posts</a>
+</body>
+

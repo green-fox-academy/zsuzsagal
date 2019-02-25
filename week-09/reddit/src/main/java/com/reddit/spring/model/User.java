@@ -1,5 +1,6 @@
 package com.reddit.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 import java.util.List;
 
@@ -11,12 +12,13 @@ public class User {
   private String name;
 
   @OneToMany(cascade = CascadeType.PERSIST, mappedBy = "user")
+  @JsonIgnore
   private List<Post> posts;
 
-  public User(){
+  public User() {
   }
 
-  public User(String name){
+  public User(String name) {
     this.name = name;
   }
 

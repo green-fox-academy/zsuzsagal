@@ -15,9 +15,10 @@ public class Post {
   @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm")
   private LocalDateTime dateTime;
   @ManyToOne
+  @JoinColumn(name = "user_id")
   User user;
 
-  public Post(){
+  public Post() {
     dateTime = LocalDateTime.now();
   }
 
@@ -27,11 +28,11 @@ public class Post {
     this.user = user;
   }
 
-  public int upVote(){
+  public int upVote() {
     return numberOfVotes++;
   }
 
-  public int downVote(){
+  public int downVote() {
     if (numberOfVotes > 0) {
       numberOfVotes--;
     }

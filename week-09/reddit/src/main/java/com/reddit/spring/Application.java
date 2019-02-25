@@ -7,7 +7,6 @@ import com.reddit.spring.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -33,10 +32,9 @@ public class Application implements CommandLineRunner {
     User Emma = new User("Emma");
     User Chris = new User("Chris");
     User Pablo = new User("Pablo");
-    List<User> users = Arrays.asList(Dave, Emily,Emma, Chris,Dave,Pablo );
+    List<User> users = Arrays.asList(Dave, Emily, Emma, Chris, Dave, Pablo);
     userRepository.saveAll(users);
-
-    postRepository.save(new Post("How the Right Nutrition Can Strengthen Your Kids' Bones",Dave));
+    postRepository.save(new Post("How the Right Nutrition Can Strengthen Your Kids' Bones", Dave));
     postRepository.save(new Post("A Parent's Guide to Promoting Your Child's Social Well-Being", Dave));
     postRepository.save(new Post("Recipes for Quick & Healthy Dinners", Emma));
     postRepository.save(new Post("15 Brilliant Brands Who Are Killing It on Snapchat", Chris));
@@ -54,7 +52,5 @@ public class Application implements CommandLineRunner {
     postRepository.save(new Post("10 Jewelry Shops Where You Can Buy An Affordable Diamond", Emily));
     postRepository.save(new Post("Master These 7 Essential Elements For Winning Content ", Dave));
     postRepository.save(new Post("How I Groom My Cat: A Funny Infographic For Cat Lovers", Chris));
-
   }
 }
-
